@@ -1,38 +1,26 @@
 <script>
 
-import headerItems from '../assets/js/headerItems.js'
+
+import AppHeaderNav from './AppHeaderNav.vue'
+import AppHeaderJumbo from './AppHeaderJumbo.vue'
 
 export default {
     name: 'AppHeader',
-    data() {
-        return {
-            headerItems
-        }
+    components: {
+        AppHeaderNav,
+        AppHeaderJumbo
     },
-    mounted() {
-        console.log(headerItems)
-    }
-
 }
 
 </script>
 
 <template>
     <header>
-        <div class="container d-flex justify-content-center align-items-center py-3">
 
-            <div class="">
-                <ul class="d-flex flex-row align-items-center">
-                    <li v-for="item in headerItems.items">
-                        <a href="" :class="item.class" v-if="item.text != ''">
-                            {{ item.text }}
-                        </a>
-                        <img :src="item.img" alt="" :class="item.class" v-if="item.img != ''">
-                    </li>
-                </ul>
-            </div>
+        <AppHeaderNav />
 
-        </div>
+        <AppHeaderJumbo />
+
         <div class="mt-5">
             <img src="../assets/svg/svg-0.svg" width="50" alt="">
             <img src="../assets/svg/svg-1.svg" width="50" alt="">

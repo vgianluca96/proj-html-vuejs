@@ -10,7 +10,7 @@ export default {
             text: 'home',
             img: '',
             class: '',
-            thumb: '../assets/svg/svg-0.svg'
+            thumb: './src/assets/svg/svg-0.svg'
         },
         {
             text: 'pages',
@@ -27,7 +27,7 @@ export default {
         {
             text: '',
             img: './src/assets/img/h5-logo-divided-header.png',
-            class: 'logo',
+            class: '',
             thumb: ''
         },
         {
@@ -52,7 +52,7 @@ export default {
             text: 'cart',
             img: '',
             class: 'ms-enhanced',
-            thumb: '../assets/svg/svg-1.svg'
+            thumb: './src/assets/svg/svg-1.svg'
         },
         {
             text: 'search',
