@@ -1,14 +1,52 @@
 <script>
 
+import headerItems from '../assets/js/headerItems.js'
+
 export default {
-    name: 'AppHeader'
+    name: 'AppHeader',
+    data() {
+        return {
+            headerItems
+        }
+    },
+    mounted() {
+        console.log(headerItems)
+    }
+
 }
 
 </script>
 
 <template>
     <header>
-        <h1>Header</h1>
+        <div class="container d-flex justify-content-center align-items-center py-3">
+
+            <div class="">
+                <ul class="d-flex flex-row align-items-center">
+                    <li v-for="item in headerItems.items">
+                        <a href="" :class="item.class" v-if="item.text != ''">
+                            {{ item.text }}
+                        </a>
+                        <img :src="item.img" alt="" :class="item.class" v-if="item.img != ''">
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="mt-5">
+            <img src="../assets/svg/svg-0.svg" width="50" alt="">
+            <img src="../assets/svg/svg-1.svg" width="50" alt="">
+            <img src="../assets/svg/svg-2.svg" width="50" alt="">
+            <img src="../assets/svg/svg-3.svg" width="50" alt="">
+            <img src="../assets/svg/svg-4.svg" width="50" alt="">
+            <img src="../assets/svg/svg-5.svg" width="50" alt="">
+            <img src="../assets/svg/svg-6.svg" width="50" alt="">
+            <img src="../assets/svg/svg-7.svg" width="50" alt="">
+            <img src="../assets/svg/svg-8.svg" width="50" alt="">
+            <img src="../assets/svg/svg-9.svg" width="50" alt="">
+            <img src="../assets/svg/svg-10.svg" width="50" alt="">
+            <img src="../assets/svg/svg-11.svg" width="50" alt="">
+        </div>
     </header>
 </template>
 
