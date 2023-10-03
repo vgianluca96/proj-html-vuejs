@@ -1,8 +1,25 @@
 <script>
+
+import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
+import AppFooter from './components/AppFooter.vue'
+
+export default {
+  components: {
+    AppHeader,
+    AppMain,
+    AppFooter
+  }
+}
+
 </script>
 
 <template>
-  <h1 class="text-center pt-5">Hello</h1>
+  <AppHeader />
+
+  <AppMain />
+
+  <AppFooter />
 </template>
 
 <style lang="scss"></style>
