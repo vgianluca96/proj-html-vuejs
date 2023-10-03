@@ -28,9 +28,9 @@ export default {
 </script>
 
 <template>
-    <div class="d-flex justify-content-between align-items-center mb-5">
+    <div class="d-flex justify-content-between align-items-center">
 
-        <div class="">
+        <div class="prev-btn">
             <button type="button" @click="prev()">
                 Prev
             </button>
@@ -44,7 +44,7 @@ export default {
             </div>
         </div>
 
-        <div class="">
+        <div class="next-btn">
             <button type="button" @click="next()">
                 Next
             </button>
