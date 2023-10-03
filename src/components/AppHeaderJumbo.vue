@@ -9,10 +9,6 @@ export default {
             jumboImgs
         }
     },
-    mounted() {
-        console.log(this.jumboImgs.items)
-        console.log(this.jumboImgs.items[0])
-    },
     methods: {
         next() {
             this.jumboImgs.visible++;
@@ -32,21 +28,28 @@ export default {
 </script>
 
 <template>
-    <div class="d-flex align-items-center justify-content-between">
-        <button type="button" @click="prev()">
-            Prev
-        </button>
+    <div class="d-flex justify-content-between align-items-center mb-5">
 
-        <div class="jumbotron d-flex justify-content-center" v-for="(item, index) in this.jumboImgs.items">
-            <div v-if="index == this.jumboImgs.visible">
-                <img :src="item.img1" alt="">
-                <img :src="item.img2" width="50" alt="">
+        <div class="">
+            <button type="button" @click="prev()">
+                Prev
+            </button>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center" v-for="(item, index) in this.jumboImgs.items"
+            :class="{ 'd-none': index != this.jumboImgs.visible }">
+            <div class="jumbotron">
+                <img :src="item.img1" alt="" class="jumbo-bg">
+                <img :src="item.img2" alt="" class="jumbo-front">
             </div>
         </div>
 
-        <button type="button" @click="next()">
-            Next
-        </button>
+        <div class="">
+            <button type="button" @click="next()">
+                Next
+            </button>
+        </div>
+
     </div>
 </template>
 

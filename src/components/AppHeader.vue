@@ -21,6 +21,7 @@ export default {
 
         <AppHeaderJumbo />
 
+        <!--
         <div class="mt-5">
             <img src="../assets/svg/svg-0.svg" width="50" alt="">
             <img src="../assets/svg/svg-1.svg" width="50" alt="">
@@ -35,6 +36,7 @@ export default {
             <img src="../assets/svg/svg-10.svg" width="50" alt="">
             <img src="../assets/svg/svg-11.svg" width="50" alt="">
         </div>
+        -->
     </header>
 </template>
 

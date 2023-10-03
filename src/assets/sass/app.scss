@@ -2,38 +2,56 @@
 
 
 header {
-    height: 650px;
     background-image: url('../../assets/img/cielostellato.PNG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-    ul {
-        list-style-type: none;
+    nav {
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        .order-online {
+            background-color: red;
+            font-weight: bold;
+            padding: .75rem 1rem;
+        }
+
+        .ms-enhanced {
+            margin-left: 3.5rem;
+        }
+
+        .me-enhanced {
+            margin-right: 3.5rem;
+        }
+
+        .thumb-color {
+            filter: invert(1);
+        }
     }
 
-    a {
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 12px;
+    .jumbotron {
+        position: relative;
+
+        .jumbo-bg {
+            height: 200px;
+        }
+
+        .jumbo-front {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+        }
     }
 
-    .order-online {
-        background-color: red;
-        font-weight: bold;
-        padding: .75rem 1rem;
-    }
-
-    .ms-enhanced {
-        margin-left: 3.5rem;
-    }
-
-    .me-enhanced {
-        margin-right: 3.5rem;
-    }
-
-    .thumb-color {
-        filter: invert(1);
-    }
 }
