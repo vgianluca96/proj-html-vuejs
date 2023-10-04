@@ -1,0 +1,61 @@
+@use './appVariables.scss' as *;
+
+header {
+    padding-bottom: 6rem;
+    background-image: url('../../assets/img/cielostellato.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    nav {
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            color: $light-primary;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        a:hover {
+            color: #cdcdcd;
+        }
+
+        .order-online {
+            background-color: $red-primary;
+            font-weight: bold;
+            padding: .75rem 1rem;
+        }
+
+        .ms-enhanced {
+            margin-left: 3.5rem;
+        }
+
+        .me-enhanced {
+            margin-right: 3.5rem;
+        }
+
+        .thumb-color {
+            filter: invert(1);
+        }
+    }
+
+    .jumbotron {
+        position: relative;
+
+        .jumbo-bg {
+            height: 200px;
+        }
+
+        .jumbo-front {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 250px;
+        }
+    }
+
+}

@@ -1,15 +1,10 @@
 @use 'bootstrap';
-
-$light-primary: white;
-$light-secondary: #f7f7f2;
-$grey-primary: #e4e4d4;
-$grey-secondary: #5a5a5a;
-$grey-tertiary: #858585;
-$red-primary: #d2401e;
-$green-primary: #b7903c;
+@use './appVariables.scss' as *;
+@use './appHeader.scss';
+@use './appMain.scss';
 
 
-// General classes
+// General
 
 section {
     margin-top: 5px;
@@ -24,7 +19,7 @@ section {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 12px;
-        background-color: $light-secondary;
+        background-color: $light-primary;
         border-radius: 50% 50% 0 0/100% 100% 0 0;
         border: none;
         padding: 0 2rem;
@@ -42,160 +37,11 @@ section {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 12px;
-        background-color: $light-secondary;
+        background-color: $light-primary;
         border-radius: 50% 50% 0 0/100% 100% 0 0;
         border: none;
         padding: 0 2rem;
         padding-top: 1rem;
         padding-bottom: 0;
-    }
-}
-
-
-//
-header {
-    padding-bottom: 6rem;
-    background-image: url('../../assets/img/cielostellato.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    nav {
-        ul {
-            list-style-type: none;
-        }
-
-        a {
-            color: $light-primary;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 12px;
-        }
-
-        .order-online {
-            background-color: $red-primary;
-            font-weight: bold;
-            padding: .75rem 1rem;
-        }
-
-        .ms-enhanced {
-            margin-left: 3.5rem;
-        }
-
-        .me-enhanced {
-            margin-right: 3.5rem;
-        }
-
-        .thumb-color {
-            filter: invert(1);
-        }
-    }
-
-    .jumbotron {
-        position: relative;
-
-        .jumbo-bg {
-            height: 200px;
-        }
-
-        .jumbo-front {
-            position: absolute;
-            top: 70%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: 250px;
-        }
-    }
-
-}
-
-.testimonials {
-    height: 300px;
-    padding: 4rem 0;
-    background-image: url('../../assets/img/h3-testimonials-bckgrnd.jpg');
-    background-position: center;
-
-    .quote {
-        fill: $green-primary;
-    }
-
-    .authorAndDate {
-        font-weight: bold;
-        font-size: 10px;
-        color: $red-primary;
-    }
-
-    .dot-green {
-        fill: $green-primary;
-    }
-
-    .dot-grey {
-        fill: $grey-primary;
-    }
-}
-
-.menu {
-    padding: 5rem 6rem;
-
-    .price {
-        color: $red-primary;
-    }
-
-    .description {
-        color: $grey-secondary;
-    }
-
-    .item-description {
-        font-size: 10px;
-        color: $grey-tertiary;
-    }
-}
-
-.build-pizza {
-    width: 100%;
-    height: 300px;
-    color: $light-primary;
-
-    h2 {
-        position: absolute;
-        top: 20%;
-        left: 25%;
-    }
-
-    div {
-        background-image: url('../img/h3-background-img.jpg');
-    }
-
-    .divx1 {
-        width: 7%;
-        background-position-x: 100%;
-        background-size: 1000%;
-    }
-
-    .divx2 {
-        width: 86%;
-        background-position-x: 50%;
-        background-size: cover;
-    }
-
-    .divx3 {
-        width: 7%;
-        background-position-x: 0%;
-        background-size: 1000%;
-    }
-
-    .divy1 {
-        height: 25%;
-        background-position-y: 100%;
-    }
-
-    .divy2 {
-        height: 50%;
-        background-position-y: 8%;
-    }
-
-    .divy3 {
-        height: 25%;
-        background-position-y: 65%;
     }
 }

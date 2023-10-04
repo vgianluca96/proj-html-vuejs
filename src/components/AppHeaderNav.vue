@@ -18,7 +18,7 @@ export default {
 
         <ul class="d-flex flex-row align-items-center">
             <li class="mx-3" v-for="item in navItems.items">
-                <a href="" :class="item.class" v-if="item.text != ''">
+                <a href="javascript:void(0)" :class="item.class" v-if="item.text != ''">
                     <img :src="item.thumb" alt="" height="12" class="thumb-color" v-if="item.thumb != ''">
                     {{ item.text }}
                 </a>
