@@ -30,7 +30,7 @@
     padding: 5rem 6rem;
 
     .price {
-        color: $red-primary;
+        color: $red-secondary;
     }
 
     .description {
@@ -143,5 +143,17 @@
         }
     }
 
+}
 
+.events {
+    height: 600px;
+    background-image: url('../img/cielostellato.PNG');
+    background-position: center;
+    background-size: cover;
+}
+
+.comics {
+    background-image: url('../img/img-comics.PNG');
+    background-position: center;
+    background-size: cover;
 }
