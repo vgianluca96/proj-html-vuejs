@@ -8,26 +8,16 @@ export default {
 
 <template>
     <footer>
-        <h1>Footer</h1>
-    </footer>
+        <div class="row row-cols-2 gx-0 m-0">
+            <div class="footer1 col">
+
+            </div>
+            <div class="footer2 col">
 
 
-    <!--
-        <div class="mt-5">
-            <img src="../assets/svg/svg-0.svg" width="50" alt="">
-            <img src="../assets/svg/svg-1.svg" width="50" alt="">
-            <img src="../assets/svg/svg-2.svg" width="50" alt="">
-            <img src="../assets/svg/svg-3.svg" width="50" alt="">
-            <img src="../assets/svg/svg-4.svg" width="50" alt="">
-            <img src="../assets/svg/svg-5.svg" width="50" alt="">
-            <img src="../assets/svg/svg-6.svg" width="50" alt="">
-            <img src="../assets/svg/svg-7.svg" width="50" alt="">
-            <img src="../assets/svg/svg-8.svg" width="50" alt="">
-            <img src="../assets/svg/svg-9.svg" width="50" alt="">
-            <img src="../assets/svg/svg-10.svg" width="50" alt="">
-            <img src="../assets/svg/svg-11.svg" width="50" alt="">
+            </div>
         </div>
-        -->
+    </footer>
 </template>
 
 <style></style>
