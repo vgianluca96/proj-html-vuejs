@@ -2,10 +2,57 @@
 
 $light-primary: white;
 $light-secondary: #f7f7f2;
-$light-tertiary: #e4e4d4;
+$grey-primary: #e4e4d4;
+$grey-secondary: #5a5a5a;
+$grey-tertiary: #858585;
 $red-primary: #d2401e;
 $green-primary: #b7903c;
 
+
+// General classes
+
+section {
+    margin-top: 5px;
+}
+
+.prev-btn {
+    margin-left: -1.9rem;
+    transform: rotate(90deg);
+
+    button {
+        color: $red-primary;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+        background-color: $light-secondary;
+        border-radius: 50% 50% 0 0/100% 100% 0 0;
+        border: none;
+        padding: 0 2rem;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+}
+
+.next-btn {
+    margin-right: -1.9rem;
+    transform: rotate(-90deg);
+
+    button {
+        color: $red-primary;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+        background-color: $light-secondary;
+        border-radius: 50% 50% 0 0/100% 100% 0 0;
+        border: none;
+        padding: 0 2rem;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+}
+
+
+//
 header {
     padding-bottom: 6rem;
     background-image: url('../../assets/img/cielostellato.PNG');
@@ -62,42 +109,6 @@ header {
 
 }
 
-.prev-btn {
-    margin-left: -1.9rem;
-    transform: rotate(90deg);
-
-    button {
-        color: $red-primary;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 12px;
-        background-color: $light-primary;
-        border-radius: 50% 50% 0 0/100% 100% 0 0;
-        border: none;
-        padding: 0 2rem;
-        padding-top: 1rem;
-        padding-bottom: 0;
-    }
-}
-
-.next-btn {
-    margin-right: -1.9rem;
-    transform: rotate(-90deg);
-
-    button {
-        color: $red-primary;
-        font-weight: bold;
-        text-transform: uppercase;
-        font-size: 12px;
-        background-color: $light-primary;
-        border-radius: 50% 50% 0 0/100% 100% 0 0;
-        border: none;
-        padding: 0 2rem;
-        padding-top: 1rem;
-        padding-bottom: 0;
-    }
-}
-
 .testimonials {
     height: 300px;
     padding: 4rem 0;
@@ -105,7 +116,7 @@ header {
     background-position: center;
 
     .quote {
-        fill: $green-primary
+        fill: $green-primary;
     }
 
     .authorAndDate {
@@ -119,6 +130,37 @@ header {
     }
 
     .dot-grey {
-        fill: $light-tertiary;
+        fill: $grey-primary;
+    }
+}
+
+.menu {
+    padding: 5rem 6rem;
+
+    .price {
+        color: $red-primary;
+    }
+
+    .description {
+        color: $grey-secondary;
+    }
+
+    .item-description {
+        font-size: 10px;
+        color: $grey-tertiary;
+    }
+}
+
+.build-pizza {
+    padding: 4rem 12rem;
+    color: $light-primary;
+
+    div {
+        width: 75%;
+        height: 50%;
+        background-image: url('../img/h3-background-img.jpg');
+        background-size: 170%;
+        background-position: top;
+        background-repeat: repeat;
     }
 }
