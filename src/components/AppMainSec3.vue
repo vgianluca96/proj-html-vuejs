@@ -29,7 +29,7 @@ export default {
 
 <template>
     <section>
-        <div class="row row-cols-2 gx-1 m-0">
+        <div class="row row-cols-2 gx-0 m-0">
             <div class="col">
                 <img src="../assets/img/h1-img-4.jpg" alt="" class="w-100">
             </div>

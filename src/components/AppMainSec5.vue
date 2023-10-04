@@ -16,10 +16,10 @@ export default {
                 <img src="../assets/img/h1-team-2a.jpg" alt="" class="w-100">
             </div>
             <div class="col">
-                <img src="../assets/img/h1-team-3a.jpg" alt="" class="w-100">
+                <img src="../assets/img/h1-team-4a.jpg" alt="" class="w-100">
             </div>
             <div class="col ">
-                <img src="../assets/img/h1-team-4a.jpg" alt="" class="w-100">
+                <img src="../assets/img/h1-team-3a.jpg" alt="" class="w-100">
             </div>
         </div>
     </section>

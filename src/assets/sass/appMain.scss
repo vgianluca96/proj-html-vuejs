@@ -3,9 +3,9 @@
 
 .testimonials {
     height: 300px;
-    padding: 4rem 0;
     background-image: url('../../assets/img/h3-testimonials-bckgrnd.jpg');
     background-position: center;
+    background-size: cover;
 
     .quote {
         fill: $green-primary;
@@ -44,7 +44,6 @@
 }
 
 .build-pizza {
-    width: 100%;
     height: 300px;
     color: $light-primary;
 
@@ -90,4 +89,8 @@
         height: 25%;
         background-position-y: 65%;
     }
+}
+
+.clients {
+    background-color: $light-secondary;
 }
