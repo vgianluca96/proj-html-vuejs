@@ -94,3 +94,54 @@
 .clients {
     background-color: $light-secondary;
 }
+
+.pizza {
+    padding: 6rem 0;
+
+    .choose-flavour {
+        font-weight: bold;
+        font-size: 10px;
+        color: $red-primary;
+    }
+
+    .description {
+        color: $grey-secondary;
+        padding-bottom: 3rem;
+    }
+
+    .pizzaList {
+
+        .sold {
+            width: 40px;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            background-color: $red-primary;
+            position: absolute;
+            top: 5%;
+            right: 10%;
+            font-size: 8px;
+            color: $light-primary;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .name {
+            color: $green-primary;
+            font-weight: bold;
+        }
+
+        .price {
+            color: $red-primary;
+            font-weight: bold;
+        }
+
+        .oldPrice {
+            text-decoration: line-through;
+            color: $grey-primary;
+        }
+    }
+
+
+}
