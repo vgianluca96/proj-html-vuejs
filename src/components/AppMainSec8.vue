@@ -37,12 +37,12 @@ export default {
 
 <template>
     <section>
-        <div class="row row-cols-2 m-0">
+        <div class="row row-cols-2 g-0 m-0">
             <div class="events col">
                 <div class="love text-uppercase">
                     made with love
                 </div>
-                <h3 class="deals text-uppercase">
+                <h3 class="text-uppercase pb-2">
                     delish pizza deals
                 </h3>
                 <div class="d-flex py-3" v-for="item in  events " :class="{ 'dots': item.dots }">
