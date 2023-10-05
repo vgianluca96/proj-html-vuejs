@@ -28,7 +28,7 @@ export default {
             ],
             workHours: [
                 {
-                    day: 'Monday',
+                    day: 'monday',
                     hour: 'Kitchen Closed'
                 },
                 {
@@ -74,7 +74,7 @@ export default {
                             <div class="foot-titles2 text-uppercase pt-2">
                                 {{ item.day }}
                             </div>
-                            <div class="foot-elements">
+                            <div class="foot-elements" :class="{ 'text-danger': item.day == 'monday' }">
                                 {{ item.hour }}
                             </div>
 
