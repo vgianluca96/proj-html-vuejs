@@ -9,55 +9,55 @@ export default {
         {
             text: 'home',
             img: '',
-            class: '',
+            class: 'other-links',
             thumb: './src/assets/svg/svg-0.svg'
         },
         {
             text: 'pages',
             img: '',
-            class: '',
+            class: 'other-links',
             thumb: ''
         },
         {
             text: 'menu',
             img: '',
-            class: '',
+            class: 'other-links',
             thumb: ''
         },
         {
             text: '',
             img: './src/assets/img/h5-logo-divided-header.png',
-            class: '',
+            class: 'other-links',
             thumb: ''
         },
         {
             text: 'event',
             img: '',
-            class: '',
+            class: 'other-links',
             thumb: ''
         },
         {
             text: 'blog',
             img: '',
-            class: '',
+            class: 'other-links',
             thumb: ''
         },
         {
             text: 'landing',
             img: '',
-            class: '',
+            class: 'other-links',
             thumb: ''
         },
         {
             text: 'cart',
             img: '',
-            class: '',
+            class: 'other-links ms-enhanced',
             thumb: './src/assets/svg/svg-1.svg'
         },
         {
             text: 'search',
             img: '',
-            class: '',
+            class: 'other-links',
             thumb: './src/assets/svg/svg-12.svg'
         },
     ]
