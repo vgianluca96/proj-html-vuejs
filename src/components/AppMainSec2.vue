@@ -17,7 +17,7 @@ export default {
                     authorAndDate: 'Il Gazzettino 2020'
                 },
                 {
-                    feedback: '"Lorem ipsum dolor sit amet consectetur adipisicing elit."',
+                    feedback: '"Lorem ipsum dolor sit amet consectetur adipisicing elit"',
                     authorAndDate: 'Repubblica 2022'
                 }
 

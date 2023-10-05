@@ -8,6 +8,7 @@ import AppMainSec5 from './AppMainSec5.vue'
 import AppMainSec6 from './AppMainSec6.vue'
 import AppMainSec7 from './AppMainSec7.vue'
 import AppMainSec8 from './AppMainSec8.vue'
+import AppMainSec9 from './AppMainSec9.vue'
 
 export default {
     name: 'AppMain',
@@ -19,7 +20,8 @@ export default {
         AppMainSec5,
         AppMainSec6,
         AppMainSec7,
-        AppMainSec8
+        AppMainSec8,
+        AppMainSec9
     }
 }
 
@@ -36,6 +38,7 @@ export default {
         <AppMainSec6 />
         <AppMainSec7 />
         <AppMainSec8 />
+        <AppMainSec9 />
 
     </main>
 </template>
