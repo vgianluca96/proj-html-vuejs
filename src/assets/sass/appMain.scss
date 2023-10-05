@@ -188,4 +188,16 @@
 .book-table {
     background-image: url('../img/h3-background-img-3.jpg');
     background-size: cover;
+
+    input {
+        height: 40px;
+        position: relative;
+    }
+
+    svg {
+        fill: $green-primary;
+        position: absolute;
+        right: 10px;
+        top: 50%
+    }
 }
