@@ -96,20 +96,36 @@
     }
 }
 
-.team-hover {
+.team-hover-cont {
+    display: none;
     width: 100%;
     aspect-ratio: 1/1;
-    background-color: $red-primary;
-    color: $light-primary;
+    background-color: $light-primary;
 
-    .socials {
-        padding-top: 10px;
+    .team-hover {
+        width: 90%;
+        aspect-ratio: 1/1;
+        background-color: $red-primary;
+        color: $light-primary;
 
-        svg {
-            fill: $light-primary;
-            margin: 0 5px;
+        .socials {
+            padding-top: 10px;
+
+            svg {
+                fill: $light-primary;
+                margin: 0 5px;
+            }
         }
     }
+}
+
+.team:hover img {
+    display: none;
+
+}
+
+.team:hover .team-hover-cont {
+    display: flex;
 }
 
 .clients {
