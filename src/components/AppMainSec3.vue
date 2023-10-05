@@ -41,7 +41,7 @@ export default {
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae voluptates alias consequuntur iste,
                     similique maiores eius illum.
                 </div>
-                <div class="pt-4" v-for="item in menu">
+                <div class="pt-4" v-for="item in this.menu">
                     <h5 class="text-uppercase">
                         <span class="price">{{ item.price }}</span> {{ item.name }}
                     </h5>

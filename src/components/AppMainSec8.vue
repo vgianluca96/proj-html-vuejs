@@ -27,7 +27,6 @@ export default {
                     dots: false
                 }
             ]
-
         }
     }
 
@@ -45,7 +44,7 @@ export default {
                 <h3 class="text-uppercase pb-2">
                     delish pizza deals
                 </h3>
-                <div class="d-flex py-3" v-for="item in  events " :class="{ 'dots': item.dots }">
+                <div class="d-flex py-3" v-for="item in this.events" :class="{ 'dots': item.dots }">
                     <div>
                         <h2 class="day text-center m-0">
                             {{ item.day }}
@@ -69,6 +68,7 @@ export default {
                     </div>
                 </div>
             </div>
+
             <div class="comics col">
 
             </div>

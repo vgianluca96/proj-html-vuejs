@@ -4,13 +4,48 @@ footer {
     margin-top: 5px;
 
     .footer1 {
-        height: 300px;
         background-image: url('../img/cielostellato.PNG');
         background-position: center;
+        padding: 3rem 4rem;
+        color: $light-primary;
+
+        .foot-titles {
+            color: $green-primary;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .foot-titles2 {
+            color: $green-primary;
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+        .foot-elements {
+            color: $grey-tertiary;
+            font-size: 10px;
+        }
+
+        .made-with {
+            font-size: 10px;
+            color: $green-primary;
+
+            span {
+                color: $green-secondary;
+            }
+        }
+
+        .socials {
+            display: inline-block;
+
+            svg {
+                width: 10px;
+                margin-left: 5px;
+            }
+        }
     }
 
     .footer2 {
-        height: 300px;
         background-image: url('../img/footer-img-1.jpg');
         background-size: cover;
         background-position: center;

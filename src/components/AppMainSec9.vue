@@ -8,7 +8,6 @@ export default {
 
 <template>
     <section class="book-table py-5">
-
         <div class="container w-75">
             <div class="d-flex justify-content-between align-items-center">
                 <div class="position-relative">
@@ -19,7 +18,7 @@ export default {
                     </svg>
                     <input type="text" placeholder="1 Person" class="p-0 ps-2">
                 </div>
-                <div class=" text-uppercase text-center fw-bold text-light">
+                <div class=" text-uppercase text-center">
                     for
                 </div>
                 <div class=" position-relative">
@@ -30,7 +29,7 @@ export default {
                     </svg>
                     <input type="text" placeholder="11/09/2020" class="p-0 ps-2">
                 </div>
-                <div class="text-uppercase text-center fw-bold text-light">
+                <div class="text-uppercase text-center">
                     at
                 </div>
                 <div class="position-relative">
@@ -48,10 +47,9 @@ export default {
                 </button>
             </div>
             <div class="text-light pt-1">
-                *powered by Open Table
+                *Powered by Open Table
             </div>
         </div>
-
     </section>
 </template>
 

@@ -188,6 +188,7 @@
 .book-table {
     background-image: url('../img/h3-background-img-3.jpg');
     background-size: cover;
+    color: $light-primary;
 
     input {
         width: 200px;
@@ -208,7 +209,6 @@
         width: 150px;
         height: 45px;
         background-color: $red-primary;
-        font-weight: bold;
         border: none;
         color: $light-primary;
         font-size: 12px;
