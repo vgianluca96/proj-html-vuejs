@@ -96,6 +96,22 @@
     }
 }
 
+.team-hover {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-color: $red-primary;
+    color: $light-primary;
+
+    .socials {
+        padding-top: 10px;
+
+        svg {
+            fill: $light-primary;
+            margin: 0 5px;
+        }
+    }
+}
+
 .clients {
     background-color: $light-secondary;
 }
@@ -194,6 +210,7 @@
         width: 200px;
         height: 45px;
         position: relative;
+        border: 2px solid black;
     }
 
     svg {
