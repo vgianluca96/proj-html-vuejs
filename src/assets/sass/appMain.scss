@@ -26,6 +26,11 @@
     }
 }
 
+.women-sitted {
+    background-image: url('../img/h1-img-4.jpg');
+    background-size: cover;
+}
+
 .menu {
     padding: 5rem 6rem;
 
@@ -38,7 +43,7 @@
     }
 
     .item-description {
-        font-size: 10px;
+        font-size: 12px;
         color: $grey-tertiary;
     }
 }
@@ -130,26 +135,54 @@
         .name {
             color: $green-primary;
             font-weight: bold;
+            font-size: 12px;
         }
 
         .price {
             color: $red-primary;
             font-weight: bold;
+            font-size: 12px;
         }
 
         .oldPrice {
             text-decoration: line-through;
             color: $grey-primary;
+            font-size: 12px;
         }
     }
 
 }
 
 .events {
-    height: 600px;
     background-image: url('../img/cielostellato.PNG');
-    background-position: center;
-    background-size: cover;
+    padding: 4rem 6rem;
+    color: $light-primary;
+
+    .love {
+        color: $red-secondary;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .deals {
+        padding-bottom: 2rem;
+    }
+
+    .day {
+        color: $red-secondary;
+        font-size: 48px;
+
+    }
+
+    .location {
+        color: $red-secondary;
+        font-size: 12px;
+    }
+
+    .dots {
+        border-bottom: 2px dotted $red-secondary;
+    }
+
 }
 
 .comics {

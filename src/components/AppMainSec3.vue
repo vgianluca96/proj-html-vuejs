@@ -7,17 +7,17 @@ export default {
             menu: [
                 {
                     name: 'combo piccolo',
-                    price: '$ 10',
+                    price: '$10',
                     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae voluptates alias.'
                 },
                 {
                     name: 'combo mezzo',
-                    price: '$ 20',
+                    price: '$20',
                     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae voluptates alias.'
                 },
                 {
                     name: 'combo grande',
-                    price: '$ 30',
+                    price: '$30',
                     description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae voluptates alias.'
                 }
             ]
@@ -30,10 +30,10 @@ export default {
 <template>
     <section>
         <div class="row row-cols-2 gx-0 m-0">
-            <div class="col">
-                <img src="../assets/img/h1-img-4.jpg" alt="" class="w-100">
+            <div class="women-sitted col">
+
             </div>
-            <div class="col menu">
+            <div class="menu col">
                 <h3 class="text-uppercase">
                     Specials*
                 </h3>
