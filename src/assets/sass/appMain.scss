@@ -1,26 +1,26 @@
 @use './appVariables.scss' as *;
 
 
-.slides {
+.slides-hover {
+    display: none;
+    background-color: $light-primary;
+    width: 100%;
+    height: 100%;
 
-    .slides-hover {
-        display: none;
-        background-color: $light-primary;
-        width: 100%;
-        height: 100%;
-
-        svg {
-            fill: $red-primary
-        }
+    svg {
+        fill: $red-primary;
     }
 }
 
-.slides:hover img {
-    display: none;
-}
+.slides:hover {
+    img {
+        display: none;
+    }
 
-.slides:hover .slides-hover {
-    display: flex;
+    .slides-hover {
+        display: flex;
+    }
+
 }
 
 .testimonials {
@@ -141,13 +141,16 @@
     }
 }
 
-.team:hover img {
-    display: none;
+.team:hover {
 
-}
+    img {
+        display: none;
 
-.team:hover .team-hover-cont {
-    display: flex;
+    }
+
+    .team-hover-cont {
+        display: flex;
+    }
 }
 
 .clients {
