@@ -1,6 +1,28 @@
 @use './appVariables.scss' as *;
 
 
+.slides {
+
+    .slides-hover {
+        display: none;
+        background-color: $light-primary;
+        width: 100%;
+        height: 100%;
+
+        svg {
+            fill: $red-primary
+        }
+    }
+}
+
+.slides:hover img {
+    display: none;
+}
+
+.slides:hover .slides-hover {
+    display: flex;
+}
+
 .testimonials {
     height: 300px;
     background-image: url('../../assets/img/h3-testimonials-bckgrnd.jpg');
