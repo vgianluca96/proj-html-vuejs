@@ -1,5 +1,5 @@
 export default {
-    items: [
+    navItems: [
         {
             text: 'order online',
             img: '',
@@ -60,6 +60,47 @@ export default {
             class: 'other-links',
             thumb: './src/assets/svg/svg-12.svg'
         },
+    ],
+    restaurants: [
+        {
+            address1: '1614 E. Bell Rd #104.',
+            address2: 'Salerno, AZ 85022',
+            telephone: '(602) 867-1010'
+        },
+        {
+            address1: '204 E. Pizzetta Tommaso',
+            address2: 'Sorrento, AZ 85022',
+            telephone: '(358) 867-1010'
+        },
+        {
+            address1: 'Vale Puglia 54',
+            address2: 'Torre Del Greco AZ 85022',
+            telephone: '(359) 867-1010'
+        },
+        {
+            address1: 'Corso Italia',
+            address2: 'Naples, AZ 85022',
+            telephone: '(989) 867-1010'
+        }
+    ],
+    workHours: [
+        {
+            day: 'monday',
+            hour: 'Kitchen Closed'
+        },
+        {
+            day: 'tuesday until friday',
+            hour: '9:00 - 22:00'
+        },
+        {
+            day: 'saturday*',
+            hour: 'Saturday 11am to midnight'
+        },
+        {
+            day: 'sunday',
+            hour: '9:00 - 22:00'
+        }
+
     ]
 
 }

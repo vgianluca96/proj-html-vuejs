@@ -1,14 +1,8 @@
 <script>
 
-import navItems from '../assets/js/navItems.js'
-
 export default {
     name: 'AppHeaderNav',
-    data() {
-        return {
-            navItems
-        }
-    },
+    props: ['navItems']
 }
 
 </script>
@@ -17,7 +11,7 @@ export default {
     <nav class="d-flex justify-content-center align-items-center py-3">
 
         <ul class="d-flex flex-row align-items-center p-0">
-            <li class="mx-3" v-for="item in navItems.items">
+            <li class="mx-3" v-for="item in navItems">
                 <a href="javascript:void(0)" :class="item.class" v-if="item.text != ''">
                     <img :src="item.thumb" alt="" height="12" class="thumb-color" v-if="item.thumb != ''">
                     {{ item.text }}

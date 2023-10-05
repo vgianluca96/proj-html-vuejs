@@ -9,6 +9,7 @@ export default {
         AppHeaderNav,
         AppHeaderJumbo
     },
+    props: ['navItems']
 }
 
 </script>
@@ -16,7 +17,7 @@ export default {
 <template>
     <header>
 
-        <AppHeaderNav />
+        <AppHeaderNav :navItems="navItems" />
 
         <AppHeaderJumbo />
 
