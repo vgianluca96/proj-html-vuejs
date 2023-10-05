@@ -51,14 +51,14 @@ export default {
         {
             text: 'cart',
             img: '',
-            class: 'ms-enhanced',
+            class: '',
             thumb: './src/assets/svg/svg-1.svg'
         },
         {
             text: 'search',
             img: '',
             class: '',
-            thumb: ''
+            thumb: './src/assets/svg/svg-12.svg'
         },
     ]
 
