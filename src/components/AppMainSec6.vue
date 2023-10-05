@@ -8,7 +8,7 @@ export default {
 
 <template>
     <section class="clients">
-        <div class="container w-50 py-4">
+        <div class="container w-50 py-5">
             <div class="row row-cols-5">
                 <div class="col d-flex align-items-center">
                     <img src="../assets/img/h1-clients-img-4.png" alt="" class="w-100">

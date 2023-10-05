@@ -57,7 +57,7 @@ export default {
 
 <template>
     <section>
-        <div class="pizza flavour py-4">
+        <div class="pizza-flavour py-5">
             <div class="container w-50 text-center">
                 <div class="choose-flavour text-uppercase">
                     choose your flavour
